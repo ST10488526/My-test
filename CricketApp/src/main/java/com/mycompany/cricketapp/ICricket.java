@@ -8,6 +8,8 @@ package com.mycompany.cricketapp;
  *
  * @author lab_services_student
  */
-public class ICricket {
-    
+public interface ICricket {
+    String getBatsman();
+    String getStadium();
+    int getRunsScored();
 }
